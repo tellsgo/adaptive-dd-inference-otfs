@@ -102,8 +102,18 @@ limitation.
 Requires Python with `numpy` and `pillow` available.
 
 ```bash
-cd lab/opportunities/adaptive_dd_inference_draft
 python3 scripts/run_preliminary_adaptive_dd.py
+```
+
+Compile the manuscript with either Tectonic:
+
+```bash
+tectonic main.tex
+```
+
+or a traditional TeX Live/MacTeX toolchain:
+
+```bash
 pdflatex main.tex
 bibtex main
 pdflatex main.tex
